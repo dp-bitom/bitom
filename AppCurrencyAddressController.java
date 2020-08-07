@@ -60,7 +60,7 @@ public class AppCurrencyAddressController {
         }if(stockUserAddr.getType()==7){
             code  = "USDT";
         }else if(stockUserAddr.getType()==8){
-            code = "BIB";
+            code = "DPOM";
         }
         Byte type = stockUserAddrService.checkCoinAddrs(code, addr);
 
